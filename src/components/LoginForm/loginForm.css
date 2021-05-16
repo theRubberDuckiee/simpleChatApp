@@ -1,0 +1,64 @@
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  color: #333;
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: white;
+  outline-color: grey;
+  width: 100%;
+  display: block;
+  transition: all 0.3s;
+  margin-bottom: 0px 0px 25px 0px;
+  text-align: center;
+}
+
+.form {
+  position: fixed;
+  top: 50%;
+  width: 400px;
+}
+
+.loginButton {
+  border-radius: 4px;
+  border: none;
+  background-color: red;
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.4s;
+  cursor: pointer;
+  margin: 20px;
+  width: 90%;
+}
+
+.loginButton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.4s;
+}
+.loginButton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.loginButton:hover span {
+  padding-right: 25px;
+}
+.loginButton:hover span:after {
+  opacity: 1;
+  right: 0;
+}

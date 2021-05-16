@@ -1,0 +1,24 @@
+.chatFeed {
+  height: 85%;
+  overflow-y: scroll; 
+  overflow-x: hidden;
+  background-color: whitesmoke;
+  width: 100%;
+}
+
+.messageFormContainer {
+  position: absolute;
+  width: calc(100% - 300px);
+  display: flex;
+  bottom: 0px;
+  padding: 18px;
+  background-color: white;
+  box-shadow: 1px 0px 5px 1px grey;
+}
+
+.messageBlock {
+  width: 100%;
+  margin-left: 18px;
+  vertical-align: center;
+  display: inline-block;
+}

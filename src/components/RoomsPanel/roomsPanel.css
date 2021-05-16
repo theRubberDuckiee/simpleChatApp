@@ -1,0 +1,44 @@
+.roomsPanel {
+  width: 300px;
+  height: 100vh;
+  background-color: red;
+}
+
+.roomButton {
+  background-color: red;
+  width: 100%;
+  height: 50px;
+  border: none;
+}
+
+.roomButtonSelected {
+  background-color: darkred;
+  width: 100%;
+  height: 50px;
+  border: none;
+}
+
+.accountPanelWrapper{
+  height: fit-content
+}
+
+.roomsList {
+  overflow-y: scroll;
+}
+
+.roomButton:hover {
+  background-color: darkred;
+}
+
+.roomButton:focus {
+  outline: none;
+  background-color: darkred;
+}
+
+.roomText {
+  color: white;
+  font-size: 15px;
+  margin-left: 20px;
+  float: left;
+  outline: none;
+}

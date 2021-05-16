@@ -1,0 +1,26 @@
+.roomsPanelWrapper {
+  height: 100%;
+}
+  
+.chatFeedWrapper {
+  background-color: rgb(240, 240, 240);
+  flex-direction: column;
+  flex-grow: 3;
+}
+
+.chatViewWrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.chatHeader {
+  text-align: center;
+  height: 15%;
+  padding: 10px 0px 10px 0px;
+}
+
+.chatFeed {
+  height: 85%;
+}

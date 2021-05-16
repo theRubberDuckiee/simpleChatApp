@@ -1,0 +1,21 @@
+.accountUsername {
+  padding: 0px 5px 0px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  overflow-wrap: anywhere;
+  display: inline-block;
+}
+
+.accountPanel {
+  padding: 20px 10px 20px 0px;
+  max-height: 150px;
+}
+
+.online {
+  font-size: 10px;
+  font-weight: 10px;
+  color: white;
+  padding: 0px 5px 0px 20px;
+  overflow-wrap: break-word;
+}
